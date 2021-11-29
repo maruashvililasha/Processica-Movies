@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20E33D07F24C7AFE8EECAC18 /* Pods_Processica_Movies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0593AD96C463DCB50A159C /* Pods_Processica_Movies.framework */; };
 		4CCE63262755224200319A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63252755224200319A45 /* AppDelegate.swift */; };
 		4CCE63282755224200319A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63272755224200319A45 /* SceneDelegate.swift */; };
 		4CCE632A2755224200319A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63292755224200319A45 /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 		4CCE63402755224500319A45 /* Processica_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE633F2755224500319A45 /* Processica_MoviesTests.swift */; };
 		4CCE634A2755224500319A45 /* Processica_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63492755224500319A45 /* Processica_MoviesUITests.swift */; };
 		4CCE634C2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE634B2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift */; };
+		4CCE635E2755279100319A45 /* PPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE635D2755279100319A45 /* PPublisher.swift */; };
+		5B7DF0581234269A967EF464 /* Pods_Processica_MoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AC322AA5B25FCBEF1B12FD /* Pods_Processica_MoviesTests.framework */; };
+		D22AE948CD5BCC471A19CD78 /* Pods_Processica_Movies_Processica_MoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF9B38B0CE5BEA3F6721E1F /* Pods_Processica_Movies_Processica_MoviesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044F10EAFDF60EC74B2615B6 /* Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Processica Movies-Processica MoviesUITests/Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4CCE63222755224200319A45 /* Processica Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Processica Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCE63252755224200319A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CCE63272755224200319A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		4CCE63452755224500319A45 /* Processica MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Processica MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCE63492755224500319A45 /* Processica_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processica_MoviesUITests.swift; sourceTree = "<group>"; };
 		4CCE634B2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processica_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CCE635D2755279100319A45 /* PPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPublisher.swift; sourceTree = "<group>"; };
+		621281884771E81A15683F9F /* Pods-Processica MoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica MoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-Processica MoviesTests/Pods-Processica MoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6451687F98073E81F91FEBCD /* Pods-Processica Movies-Processica MoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica Movies-Processica MoviesUITests.release.xcconfig"; path = "Target Support Files/Pods-Processica Movies-Processica MoviesUITests/Pods-Processica Movies-Processica MoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A0593AD96C463DCB50A159C /* Pods_Processica_Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Processica_Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA464F8CF72DC8EFD331B83 /* Pods-Processica Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica Movies.debug.xcconfig"; path = "Target Support Files/Pods-Processica Movies/Pods-Processica Movies.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AC322AA5B25FCBEF1B12FD /* Pods_Processica_MoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Processica_MoviesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F63B791BB806FA9AFA21AA /* Pods-Processica Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica Movies.release.xcconfig"; path = "Target Support Files/Pods-Processica Movies/Pods-Processica Movies.release.xcconfig"; sourceTree = "<group>"; };
+		FAE3522CD0B49EB374E7AB1A /* Pods-Processica MoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica MoviesTests.release.xcconfig"; path = "Target Support Files/Pods-Processica MoviesTests/Pods-Processica MoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCF9B38B0CE5BEA3F6721E1F /* Pods_Processica_Movies_Processica_MoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Processica_Movies_Processica_MoviesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E33D07F24C7AFE8EECAC18 /* Pods_Processica_Movies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7DF0581234269A967EF464 /* Pods_Processica_MoviesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22AE948CD5BCC471A19CD78 /* Pods_Processica_Movies_Processica_MoviesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D014568969C773D0E0C255C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA464F8CF72DC8EFD331B83 /* Pods-Processica Movies.debug.xcconfig */,
+				F4F63B791BB806FA9AFA21AA /* Pods-Processica Movies.release.xcconfig */,
+				044F10EAFDF60EC74B2615B6 /* Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig */,
+				6451687F98073E81F91FEBCD /* Pods-Processica Movies-Processica MoviesUITests.release.xcconfig */,
+				621281884771E81A15683F9F /* Pods-Processica MoviesTests.debug.xcconfig */,
+				FAE3522CD0B49EB374E7AB1A /* Pods-Processica MoviesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2CFF40B1CB5F8A891764F4AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A0593AD96C463DCB50A159C /* Pods_Processica_Movies.framework */,
+				FCF9B38B0CE5BEA3F6721E1F /* Pods_Processica_Movies_Processica_MoviesUITests.framework */,
+				D5AC322AA5B25FCBEF1B12FD /* Pods_Processica_MoviesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4CCE63192755224200319A45 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				4CCE633E2755224500319A45 /* Processica MoviesTests */,
 				4CCE63482755224500319A45 /* Processica MoviesUITests */,
 				4CCE63232755224200319A45 /* Products */,
+				1D014568969C773D0E0C255C /* Pods */,
+				2CFF40B1CB5F8A891764F4AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +144,14 @@
 		4CCE63242755224200319A45 /* Processica Movies */ = {
 			isa = PBXGroup;
 			children = (
-				4CCE63252755224200319A45 /* AppDelegate.swift */,
-				4CCE63272755224200319A45 /* SceneDelegate.swift */,
+				4CCE63582755232800319A45 /* App */,
+				4CCE63592755232F00319A45 /* MovieList */,
+				4CCE635A2755233A00319A45 /* Core */,
+				4CCE635C275524C900319A45 /* Extensions */,
+				4CCE635B275524B200319A45 /* Helpers */,
 				4CCE63292755224200319A45 /* ViewController.swift */,
 				4CCE632B2755224200319A45 /* Main.storyboard */,
 				4CCE63312755224400319A45 /* Assets.xcassets */,
-				4CCE63332755224400319A45 /* LaunchScreen.storyboard */,
-				4CCE63362755224400319A45 /* Info.plist */,
 				4CCE632E2755224200319A45 /* Processica_Movies.xcdatamodeld */,
 			);
 			path = "Processica Movies";
@@ -130,6 +174,46 @@
 			path = "Processica MoviesUITests";
 			sourceTree = "<group>";
 		};
+		4CCE63582755232800319A45 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE63252755224200319A45 /* AppDelegate.swift */,
+				4CCE63272755224200319A45 /* SceneDelegate.swift */,
+				4CCE63332755224400319A45 /* LaunchScreen.storyboard */,
+				4CCE63362755224400319A45 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4CCE63592755232F00319A45 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		4CCE635A2755233A00319A45 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4CCE635B275524B200319A45 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE635D2755279100319A45 /* PPublisher.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4CCE635C275524C900319A45 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CCE634F2755224500319A45 /* Build configuration list for PBXNativeTarget "Processica Movies" */;
 			buildPhases = (
+				61BF8B011312205B2F8C64BD /* [CP] Check Pods Manifest.lock */,
 				4CCE631E2755224200319A45 /* Sources */,
 				4CCE631F2755224200319A45 /* Frameworks */,
 				4CCE63202755224200319A45 /* Resources */,
+				F263F3E3587865A83133EFF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CCE63522755224500319A45 /* Build configuration list for PBXNativeTarget "Processica MoviesTests" */;
 			buildPhases = (
+				6EA38E03556AD00AA01CF871 /* [CP] Check Pods Manifest.lock */,
 				4CCE63372755224500319A45 /* Sources */,
 				4CCE63382755224500319A45 /* Frameworks */,
 				4CCE63392755224500319A45 /* Resources */,
@@ -172,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CCE63552755224500319A45 /* Build configuration list for PBXNativeTarget "Processica MoviesUITests" */;
 			buildPhases = (
+				745825CD5DB9215E452839A0 /* [CP] Check Pods Manifest.lock */,
 				4CCE63412755224500319A45 /* Sources */,
 				4CCE63422755224500319A45 /* Frameworks */,
 				4CCE63432755224500319A45 /* Resources */,
+				B93CED03891CDA0888C0B8DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,11 +345,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61BF8B011312205B2F8C64BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Processica Movies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA38E03556AD00AA01CF871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Processica MoviesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		745825CD5DB9215E452839A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Processica Movies-Processica MoviesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93CED03891CDA0888C0B8DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Processica Movies-Processica MoviesUITests/Pods-Processica Movies-Processica MoviesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Processica Movies-Processica MoviesUITests/Pods-Processica Movies-Processica MoviesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Processica Movies-Processica MoviesUITests/Pods-Processica Movies-Processica MoviesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F263F3E3587865A83133EFF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Processica Movies/Pods-Processica Movies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Processica Movies/Pods-Processica Movies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Processica Movies/Pods-Processica Movies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CCE631E2755224200319A45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCE635E2755279100319A45 /* PPublisher.swift in Sources */,
 				4CCE63302755224200319A45 /* Processica_Movies.xcdatamodeld in Sources */,
 				4CCE632A2755224200319A45 /* ViewController.swift in Sources */,
 				4CCE63262755224200319A45 /* AppDelegate.swift in Sources */,
@@ -438,6 +631,7 @@
 		};
 		4CCE63502755224500319A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA464F8CF72DC8EFD331B83 /* Pods-Processica Movies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,12 +639,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6H4TY4MP42;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Processica Movies/Info.plist";
+				INFOPLIST_FILE = "Processica Movies/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,12 +655,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4CCE63512755224500319A45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F63B791BB806FA9AFA21AA /* Pods-Processica Movies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,12 +669,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6H4TY4MP42;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Processica Movies/Info.plist";
+				INFOPLIST_FILE = "Processica Movies/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,12 +685,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		4CCE63532755224500319A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621281884771E81A15683F9F /* Pods-Processica MoviesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +717,7 @@
 		};
 		4CCE63542755224500319A45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE3522CD0B49EB374E7AB1A /* Pods-Processica MoviesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +743,7 @@
 		};
 		4CCE63562755224500319A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044F10EAFDF60EC74B2615B6 /* Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +767,7 @@
 		};
 		4CCE63572755224500319A45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6451687F98073E81F91FEBCD /* Pods-Processica Movies-Processica MoviesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

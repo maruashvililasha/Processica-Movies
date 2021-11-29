@@ -1,0 +1,24 @@
+PODS:
+  - Kingfisher (7.1.1)
+  - ProgressHUD (13.6)
+  - SkeletonView (1.25.2)
+
+DEPENDENCIES:
+  - Kingfisher (~> 7.0)
+  - ProgressHUD
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - ProgressHUD
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+  SkeletonView: 820b2bbd180d7408f3f03b6462cfc3cac39d2ef2
+
+PODFILE CHECKSUM: 196ba9214109dded4edf88b1f9e805021cf39cd5
+
+COCOAPODS: 1.11.2
