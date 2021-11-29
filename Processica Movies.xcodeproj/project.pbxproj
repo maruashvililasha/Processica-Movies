@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCE63262755224200319A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63252755224200319A45 /* AppDelegate.swift */; };
+		4CCE63282755224200319A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63272755224200319A45 /* SceneDelegate.swift */; };
+		4CCE632A2755224200319A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63292755224200319A45 /* ViewController.swift */; };
+		4CCE632D2755224200319A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE632B2755224200319A45 /* Main.storyboard */; };
+		4CCE63302755224200319A45 /* Processica_Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE632E2755224200319A45 /* Processica_Movies.xcdatamodeld */; };
+		4CCE63322755224400319A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE63312755224400319A45 /* Assets.xcassets */; };
+		4CCE63352755224400319A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE63332755224400319A45 /* LaunchScreen.storyboard */; };
+		4CCE63402755224500319A45 /* Processica_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE633F2755224500319A45 /* Processica_MoviesTests.swift */; };
+		4CCE634A2755224500319A45 /* Processica_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63492755224500319A45 /* Processica_MoviesUITests.swift */; };
+		4CCE634C2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE634B2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCE633C2755224500319A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCE631A2755224200319A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCE63212755224200319A45;
+			remoteInfo = "Processica Movies";
+		};
+		4CCE63462755224500319A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCE631A2755224200319A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCE63212755224200319A45;
+			remoteInfo = "Processica Movies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCE63222755224200319A45 /* Processica Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Processica Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCE63252755224200319A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CCE63272755224200319A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CCE63292755224200319A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CCE632C2755224200319A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CCE632F2755224200319A45 /* Processica_Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Processica_Movies.xcdatamodel; sourceTree = "<group>"; };
+		4CCE63312755224400319A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCE63342755224400319A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CCE63362755224400319A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCE633B2755224500319A45 /* Processica MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Processica MoviesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCE633F2755224500319A45 /* Processica_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processica_MoviesTests.swift; sourceTree = "<group>"; };
+		4CCE63452755224500319A45 /* Processica MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Processica MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCE63492755224500319A45 /* Processica_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processica_MoviesUITests.swift; sourceTree = "<group>"; };
+		4CCE634B2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processica_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCE631F2755224200319A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE63382755224500319A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE63422755224500319A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCE63192755224200319A45 = {
+			isa = PBXGroup;
+			children = (
+				4CCE63242755224200319A45 /* Processica Movies */,
+				4CCE633E2755224500319A45 /* Processica MoviesTests */,
+				4CCE63482755224500319A45 /* Processica MoviesUITests */,
+				4CCE63232755224200319A45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCE63232755224200319A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE63222755224200319A45 /* Processica Movies.app */,
+				4CCE633B2755224500319A45 /* Processica MoviesTests.xctest */,
+				4CCE63452755224500319A45 /* Processica MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCE63242755224200319A45 /* Processica Movies */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE63252755224200319A45 /* AppDelegate.swift */,
+				4CCE63272755224200319A45 /* SceneDelegate.swift */,
+				4CCE63292755224200319A45 /* ViewController.swift */,
+				4CCE632B2755224200319A45 /* Main.storyboard */,
+				4CCE63312755224400319A45 /* Assets.xcassets */,
+				4CCE63332755224400319A45 /* LaunchScreen.storyboard */,
+				4CCE63362755224400319A45 /* Info.plist */,
+				4CCE632E2755224200319A45 /* Processica_Movies.xcdatamodeld */,
+			);
+			path = "Processica Movies";
+			sourceTree = "<group>";
+		};
+		4CCE633E2755224500319A45 /* Processica MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE633F2755224500319A45 /* Processica_MoviesTests.swift */,
+			);
+			path = "Processica MoviesTests";
+			sourceTree = "<group>";
+		};
+		4CCE63482755224500319A45 /* Processica MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE63492755224500319A45 /* Processica_MoviesUITests.swift */,
+				4CCE634B2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift */,
+			);
+			path = "Processica MoviesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCE63212755224200319A45 /* Processica Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCE634F2755224500319A45 /* Build configuration list for PBXNativeTarget "Processica Movies" */;
+			buildPhases = (
+				4CCE631E2755224200319A45 /* Sources */,
+				4CCE631F2755224200319A45 /* Frameworks */,
+				4CCE63202755224200319A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Processica Movies";
+			productName = "Processica Movies";
+			productReference = 4CCE63222755224200319A45 /* Processica Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCE633A2755224500319A45 /* Processica MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCE63522755224500319A45 /* Build configuration list for PBXNativeTarget "Processica MoviesTests" */;
+			buildPhases = (
+				4CCE63372755224500319A45 /* Sources */,
+				4CCE63382755224500319A45 /* Frameworks */,
+				4CCE63392755224500319A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCE633D2755224500319A45 /* PBXTargetDependency */,
+			);
+			name = "Processica MoviesTests";
+			productName = "Processica MoviesTests";
+			productReference = 4CCE633B2755224500319A45 /* Processica MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CCE63442755224500319A45 /* Processica MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCE63552755224500319A45 /* Build configuration list for PBXNativeTarget "Processica MoviesUITests" */;
+			buildPhases = (
+				4CCE63412755224500319A45 /* Sources */,
+				4CCE63422755224500319A45 /* Frameworks */,
+				4CCE63432755224500319A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCE63472755224500319A45 /* PBXTargetDependency */,
+			);
+			name = "Processica MoviesUITests";
+			productName = "Processica MoviesUITests";
+			productReference = 4CCE63452755224500319A45 /* Processica MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCE631A2755224200319A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4CCE63212755224200319A45 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4CCE633A2755224500319A45 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4CCE63212755224200319A45;
+					};
+					4CCE63442755224500319A45 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4CCE63212755224200319A45;
+					};
+				};
+			};
+			buildConfigurationList = 4CCE631D2755224200319A45 /* Build configuration list for PBXProject "Processica Movies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCE63192755224200319A45;
+			productRefGroup = 4CCE63232755224200319A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCE63212755224200319A45 /* Processica Movies */,
+				4CCE633A2755224500319A45 /* Processica MoviesTests */,
+				4CCE63442755224500319A45 /* Processica MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCE63202755224200319A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCE63352755224400319A45 /* LaunchScreen.storyboard in Resources */,
+				4CCE63322755224400319A45 /* Assets.xcassets in Resources */,
+				4CCE632D2755224200319A45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE63392755224500319A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE63432755224500319A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCE631E2755224200319A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCE63302755224200319A45 /* Processica_Movies.xcdatamodeld in Sources */,
+				4CCE632A2755224200319A45 /* ViewController.swift in Sources */,
+				4CCE63262755224200319A45 /* AppDelegate.swift in Sources */,
+				4CCE63282755224200319A45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE63372755224500319A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCE63402755224500319A45 /* Processica_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCE63412755224500319A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCE634A2755224500319A45 /* Processica_MoviesUITests.swift in Sources */,
+				4CCE634C2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCE633D2755224500319A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCE63212755224200319A45 /* Processica Movies */;
+			targetProxy = 4CCE633C2755224500319A45 /* PBXContainerItemProxy */;
+		};
+		4CCE63472755224500319A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCE63212755224200319A45 /* Processica Movies */;
+			targetProxy = 4CCE63462755224500319A45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CCE632B2755224200319A45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCE632C2755224200319A45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CCE63332755224400319A45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCE63342755224400319A45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCE634D2755224500319A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCE634E2755224500319A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCE63502755224500319A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4TY4MP42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Processica Movies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maruashvililasha.Processica-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCE63512755224500319A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4TY4MP42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Processica Movies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maruashvililasha.Processica-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CCE63532755224500319A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4TY4MP42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maruashvililasha.Processica-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Processica Movies.app/Processica Movies";
+			};
+			name = Debug;
+		};
+		4CCE63542755224500319A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4TY4MP42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maruashvililasha.Processica-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Processica Movies.app/Processica Movies";
+			};
+			name = Release;
+		};
+		4CCE63562755224500319A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4TY4MP42;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maruashvililasha.Processica-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Processica Movies";
+			};
+			name = Debug;
+		};
+		4CCE63572755224500319A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H4TY4MP42;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maruashvililasha.Processica-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Processica Movies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCE631D2755224200319A45 /* Build configuration list for PBXProject "Processica Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCE634D2755224500319A45 /* Debug */,
+				4CCE634E2755224500319A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCE634F2755224500319A45 /* Build configuration list for PBXNativeTarget "Processica Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCE63502755224500319A45 /* Debug */,
+				4CCE63512755224500319A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCE63522755224500319A45 /* Build configuration list for PBXNativeTarget "Processica MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCE63532755224500319A45 /* Debug */,
+				4CCE63542755224500319A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCE63552755224500319A45 /* Build configuration list for PBXNativeTarget "Processica MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCE63562755224500319A45 /* Debug */,
+				4CCE63572755224500319A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CCE632E2755224200319A45 /* Processica_Movies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CCE632F2755224200319A45 /* Processica_Movies.xcdatamodel */,
+			);
+			currentVersion = 4CCE632F2755224200319A45 /* Processica_Movies.xcdatamodel */;
+			path = Processica_Movies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CCE631A2755224200319A45 /* Project object */;
+}
