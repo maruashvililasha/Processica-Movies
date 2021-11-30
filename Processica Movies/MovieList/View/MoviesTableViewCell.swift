@@ -39,11 +39,7 @@ class MoviesTableViewCell: UITableViewCell {
         }
         // Background Image
         let backgroundImagePlaceHolder = UIImage(named: "PBackrground")
-        if let backgroundImage = movie.background, let backgroundURL = URL(string: backgroundImage) {
-            backgroundImageView.kf.setImage(with: backgroundURL, placeholder: backgroundImagePlaceHolder)
-        } else {
-            backgroundImageView.image = backgroundImagePlaceHolder
-        }
+        backgroundImageView.image = backgroundImagePlaceHolder
         self.titleLabel.text = movie.name
         self.voteCountLabel.text = "\(movie.voteCount)"
         self.voteAverageLabel.text = "\(movie.voteAverage)"

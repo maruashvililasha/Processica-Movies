@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func startApp() {
         let window = UIWindow(frame: UIScreen.main.bounds)
-        let vc = Controller.getMovieListViewController()
+        let vc = Controller.getMainNavigationController()
         window.rootViewController = vc
         self.window = window
         self.window?.makeKeyAndVisible()

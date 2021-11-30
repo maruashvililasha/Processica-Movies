@@ -27,10 +27,13 @@ class MovieListViewController: PViewController {
         super.viewDidLoad()
         setupUI()
         bind()
+        ProgressHUD.show()
         viewModel.start()
     }
     
     private func setupUI() {
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         moviesTableView.delegate = self
         moviesTableView.dataSource = self
         refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
@@ -39,6 +42,7 @@ class MovieListViewController: PViewController {
     }
     
     @objc func refresh(_ sender: AnyObject) {
+        ProgressHUD.show()
         viewModel.start()
     }
     
@@ -72,12 +76,19 @@ extension MovieListViewController: UITableViewDataSource, UITableViewDelegate {
         }
         cell.configure(with: movies[indexPath.row])
         if indexPath.row == self.movies.count - 3 {
+            ProgressHUD.show()
             viewModel.loadMore()
         }
         return cell
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200
+        return 130
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = Controller.getMovieDetailsViewController()
+        vc.movie = movies[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
     }
 }

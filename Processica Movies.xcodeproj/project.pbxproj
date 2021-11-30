@@ -28,6 +28,8 @@
 		4CCE634A2755224500319A45 /* Processica_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63492755224500319A45 /* Processica_MoviesUITests.swift */; };
 		4CCE634C2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE634B2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift */; };
 		4CCE635E2755279100319A45 /* PPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE635D2755279100319A45 /* PPublisher.swift */; };
+		4CFE7E0E27561613007873F3 /* MovieDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFE7E0D27561613007873F3 /* MovieDetailsViewController.storyboard */; };
+		4CFE7E1027561627007873F3 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE7E0F27561627007873F3 /* MovieDetailsViewController.swift */; };
 		5B7DF0581234269A967EF464 /* Pods_Processica_MoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AC322AA5B25FCBEF1B12FD /* Pods_Processica_MoviesTests.framework */; };
 		D22AE948CD5BCC471A19CD78 /* Pods_Processica_Movies_Processica_MoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF9B38B0CE5BEA3F6721E1F /* Pods_Processica_Movies_Processica_MoviesUITests.framework */; };
 /* End PBXBuildFile section */
@@ -88,6 +90,8 @@
 		4CCE63492755224500319A45 /* Processica_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processica_MoviesUITests.swift; sourceTree = "<group>"; };
 		4CCE634B2755224500319A45 /* Processica_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processica_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CCE635D2755279100319A45 /* PPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPublisher.swift; sourceTree = "<group>"; };
+		4CFE7E0D27561613007873F3 /* MovieDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetailsViewController.storyboard; sourceTree = "<group>"; };
+		4CFE7E0F27561627007873F3 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		621281884771E81A15683F9F /* Pods-Processica MoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica MoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-Processica MoviesTests/Pods-Processica MoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6451687F98073E81F91FEBCD /* Pods-Processica Movies-Processica MoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica Movies-Processica MoviesUITests.release.xcconfig"; path = "Target Support Files/Pods-Processica Movies-Processica MoviesUITests/Pods-Processica Movies-Processica MoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A0593AD96C463DCB50A159C /* Pods_Processica_Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Processica_Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +158,7 @@
 		4C7265E42755292F00FDC00E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4CFE7E0C27561424007873F3 /* MovieDetailsViewController */,
 				4CCE63292755224200319A45 /* MovieListViewController.swift */,
 				4CCE632B2755224200319A45 /* MovieListViewController.storyboard */,
 			);
@@ -317,6 +322,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		4CFE7E0C27561424007873F3 /* MovieDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CFE7E0D27561613007873F3 /* MovieDetailsViewController.storyboard */,
+				4CFE7E0F27561627007873F3 /* MovieDetailsViewController.swift */,
+			);
+			path = MovieDetailsViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -428,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCE63352755224400319A45 /* LaunchScreen.storyboard in Resources */,
+				4CFE7E0E27561613007873F3 /* MovieDetailsViewController.storyboard in Resources */,
 				4CCE63322755224400319A45 /* Assets.xcassets in Resources */,
 				4CCE632D2755224200319A45 /* MovieListViewController.storyboard in Resources */,
 			);
@@ -559,6 +574,7 @@
 			files = (
 				4CCE635E2755279100319A45 /* PPublisher.swift in Sources */,
 				4C72662027552C2400FDC00E /* AppDependencyContainer.swift in Sources */,
+				4CFE7E1027561627007873F3 /* MovieDetailsViewController.swift in Sources */,
 				4C72662E2755415C00FDC00E /* AppManagers.swift in Sources */,
 				4CCE632A2755224200319A45 /* MovieListViewController.swift in Sources */,
 				4C7266332755425B00FDC00E /* Controller.swift in Sources */,
@@ -753,6 +769,7 @@
 				INFOPLIST_FILE = "Processica Movies/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -782,6 +799,7 @@
 				INFOPLIST_FILE = "Processica Movies/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
