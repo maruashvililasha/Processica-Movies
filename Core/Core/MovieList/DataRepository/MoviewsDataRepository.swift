@@ -18,7 +18,6 @@ public class MoviesDataRepository: MoviesDataRepositoryInterface {
     }
     
     public func getPopularMovies(page: Int, completion: @escaping (Result<[MovieEntity], PError>) -> Void) {
-        print("DataRepo: Getting popular movies page: \(page)")
         localDataSource.getPage(page: page) {[weak self] localResult in
             switch localResult {
             case .success(let pageEntity):
@@ -57,7 +56,6 @@ public class MoviesDataRepository: MoviesDataRepositoryInterface {
     }
     
     private func fetchMoviesAndSave(page: Int, completion: @escaping(Result<Bool, PError>) -> Void) {
-        print("DataRepo: fetching popular movies page: \(page)")
         remoteDataSource.getPopularMovies(page: page) { [weak self] fetchResult in
             switch fetchResult {
             case .success(let page):

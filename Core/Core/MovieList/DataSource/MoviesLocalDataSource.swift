@@ -31,6 +31,7 @@ public class MoviesLocalDataSource: MoviesLocalDataSourceInterface {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
         })
+        container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
         return container
     }()
     
@@ -41,7 +42,6 @@ public class MoviesLocalDataSource: MoviesLocalDataSourceInterface {
     }
     
     public func getPage(page: Int, completion: @escaping (Result<MovieListEntity?, PError>) -> Void) {
-        print("LocalRepo: getting page: \(page)")
         do {
             let request = MovieListEntity.fetchRequest()
             request.predicate = NSPredicate(format: "page == \(page)")
@@ -54,7 +54,6 @@ public class MoviesLocalDataSource: MoviesLocalDataSourceInterface {
     }
     
     private func persistPage(page: GetPopularMoviesResponce, completion: @escaping (Result<Bool, PError>) -> Void) {
-        print("LocalRepo: Saving page: \(page.page), with \(page.results.count) movies")
         let movieListEntity = MovieListEntity(context: context)
         movieListEntity.date = Date()
         movieListEntity.page = Int16(page.page)
@@ -80,7 +79,6 @@ public class MoviesLocalDataSource: MoviesLocalDataSourceInterface {
     }
     
     public func savePage(page: GetPopularMoviesResponce, completion: @escaping (Result<Bool, PError>) -> Void) {
-        print("LocalRepo: updating page: \(page.page), with \(page.results.count) movies")
         delete(page: page.page) { [weak self] result in
             switch result {
             case .success(let success):
@@ -93,7 +91,6 @@ public class MoviesLocalDataSource: MoviesLocalDataSourceInterface {
     }
     
     func delete(page: Int, completion: @escaping (Result<Bool,PError>) -> Void) {
-        print("LocalRepo: deleting page: \(page)")
         getPage(page: page) { [weak self] result in
             guard let self = self else {return}
             switch result {

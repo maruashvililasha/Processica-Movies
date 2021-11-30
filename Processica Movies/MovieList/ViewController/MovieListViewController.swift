@@ -36,7 +36,12 @@ class MovieListViewController: PViewController {
         navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         moviesTableView.delegate = self
         moviesTableView.dataSource = self
-        refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        let attrs = [
+            NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 20),
+            NSAttributedString.Key.foregroundColor : UIColor.white
+        ]
+        let refreshSting = NSMutableAttributedString(string: "Pull to refresh", attributes:attrs)
+        refreshControl.attributedTitle = refreshSting
         refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
         moviesTableView.addSubview(refreshControl)
     }

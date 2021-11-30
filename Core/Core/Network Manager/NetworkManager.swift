@@ -58,8 +58,8 @@ class NetworkManager<Model> : NSObject, URLSessionTaskDelegate where Model:Codab
                         let err = PError(errorType: .toBeShown, errorMessage: "Can't parse data")
                         error(err)
                         return
-                    } else if (err as NSError).code == -1009 {
-                        var err = PError(errorType: .other, errorMessage: "No Intrnet")
+                    } else if (err as NSError).code == -1009 || (err as NSError).code == -1020 {
+                        var err = PError(errorType: .other, errorMessage: "No Internet")
                         err.errorCode = -1009
                         error(err)
                         return

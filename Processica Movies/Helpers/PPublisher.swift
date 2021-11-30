@@ -12,11 +12,7 @@ final class PPublisher<T> {
     typealias Listener = (T) -> Void
     var listener: Listener?
     
-    var value: T {
-        didSet {
-            listener?(value)
-        }
-    }
+    var value: T
     
     init(_ value: T) {
         self.value = value
@@ -24,6 +20,7 @@ final class PPublisher<T> {
     
     func accept(_ value: T) {
         self.value = value
+        listener?(value)
     }
     
     func bind(listener: Listener?) {
