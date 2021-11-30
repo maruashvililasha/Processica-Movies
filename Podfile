@@ -7,8 +7,6 @@ target 'Processica Movies' do
 
   # Pods for Processica Movies
 
-
-  pod 'SkeletonView'
   pod 'ProgressHUD'
   pod 'Kingfisher', '~> 7.0'
 
