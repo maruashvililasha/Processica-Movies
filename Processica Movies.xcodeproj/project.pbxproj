@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		20E33D07F24C7AFE8EECAC18 /* Pods_Processica_Movies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0593AD96C463DCB50A159C /* Pods_Processica_Movies.framework */; };
+		4C4C7FF1275601030046B833 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C7FF0275601030046B833 /* MoviesTableViewCell.swift */; };
+		4C4C7FF3275605BA0046B833 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C7FF2275605BA0046B833 /* UIView+Extensions.swift */; };
+		4C72661627552ABD00FDC00E /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C72661527552ABD00FDC00E /* MovieListViewModel.swift */; };
+		4C72661827552AD000FDC00E /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72661727552AD000FDC00E /* Core.framework */; };
+		4C72661927552AD000FDC00E /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72661727552AD000FDC00E /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C72662027552C2400FDC00E /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C72661F27552C2400FDC00E /* AppDependencyContainer.swift */; };
+		4C72662227552C4200FDC00E /* AppDependencyContainerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C72662127552C4200FDC00E /* AppDependencyContainerInterface.swift */; };
+		4C72662E2755415C00FDC00E /* AppManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C72662D2755415C00FDC00E /* AppManagers.swift */; };
+		4C7266312755418900FDC00E /* ProgressHudInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7266302755418900FDC00E /* ProgressHudInitializer.swift */; };
+		4C7266332755425B00FDC00E /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7266322755425B00FDC00E /* Controller.swift */; };
+		4C7266372755438800FDC00E /* PViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7266362755438800FDC00E /* PViewController.swift */; };
 		4CCE63262755224200319A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63252755224200319A45 /* AppDelegate.swift */; };
-		4CCE63282755224200319A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63272755224200319A45 /* SceneDelegate.swift */; };
-		4CCE632A2755224200319A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63292755224200319A45 /* ViewController.swift */; };
-		4CCE632D2755224200319A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE632B2755224200319A45 /* Main.storyboard */; };
-		4CCE63302755224200319A45 /* Processica_Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE632E2755224200319A45 /* Processica_Movies.xcdatamodeld */; };
+		4CCE632A2755224200319A45 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE63292755224200319A45 /* MovieListViewController.swift */; };
+		4CCE632D2755224200319A45 /* MovieListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE632B2755224200319A45 /* MovieListViewController.storyboard */; };
 		4CCE63322755224400319A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE63312755224400319A45 /* Assets.xcassets */; };
 		4CCE63352755224400319A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCE63332755224400319A45 /* LaunchScreen.storyboard */; };
 		4CCE63402755224500319A45 /* Processica_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE633F2755224500319A45 /* Processica_MoviesTests.swift */; };
@@ -40,14 +49,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C72661A27552AD000FDC00E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C72661927552AD000FDC00E /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		044F10EAFDF60EC74B2615B6 /* Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Processica Movies-Processica MoviesUITests/Pods-Processica Movies-Processica MoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C4C7FF0275601030046B833 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		4C4C7FF2275605BA0046B833 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		4C72661527552ABD00FDC00E /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		4C72661727552AD000FDC00E /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C72661F27552C2400FDC00E /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
+		4C72662127552C4200FDC00E /* AppDependencyContainerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainerInterface.swift; sourceTree = "<group>"; };
+		4C72662D2755415C00FDC00E /* AppManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManagers.swift; sourceTree = "<group>"; };
+		4C7266302755418900FDC00E /* ProgressHudInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHudInitializer.swift; sourceTree = "<group>"; };
+		4C7266322755425B00FDC00E /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		4C7266362755438800FDC00E /* PViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PViewController.swift; sourceTree = "<group>"; };
 		4CCE63222755224200319A45 /* Processica Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Processica Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCE63252755224200319A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CCE63272755224200319A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4CCE63292755224200319A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CCE632C2755224200319A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4CCE632F2755224200319A45 /* Processica_Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Processica_Movies.xcdatamodel; sourceTree = "<group>"; };
+		4CCE63292755224200319A45 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		4CCE632C2755224200319A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MovieListViewController.storyboard; sourceTree = "<group>"; };
 		4CCE63312755224400319A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CCE63342755224400319A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CCE63362755224400319A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E33D07F24C7AFE8EECAC18 /* Pods_Processica_Movies.framework in Frameworks */,
+				4C72661827552AD000FDC00E /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,18 +137,84 @@
 				621281884771E81A15683F9F /* Pods-Processica MoviesTests.debug.xcconfig */,
 				FAE3522CD0B49EB374E7AB1A /* Pods-Processica MoviesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		2CFF40B1CB5F8A891764F4AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C72661727552AD000FDC00E /* Core.framework */,
 				7A0593AD96C463DCB50A159C /* Pods_Processica_Movies.framework */,
 				FCF9B38B0CE5BEA3F6721E1F /* Pods_Processica_Movies_Processica_MoviesUITests.framework */,
 				D5AC322AA5B25FCBEF1B12FD /* Pods_Processica_MoviesTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C7265E42755292F00FDC00E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE63292755224200319A45 /* MovieListViewController.swift */,
+				4CCE632B2755224200319A45 /* MovieListViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4C7265E52755293800FDC00E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C72661527552ABD00FDC00E /* MovieListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C7265E62755294100FDC00E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C4C7FF0275601030046B833 /* MoviesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C7265E72755294C00FDC00E /* Dependency Container */ = {
+			isa = PBXGroup;
+			children = (
+				4C72661F27552C2400FDC00E /* AppDependencyContainer.swift */,
+				4C72662127552C4200FDC00E /* AppDependencyContainerInterface.swift */,
+			);
+			path = "Dependency Container";
+			sourceTree = "<group>";
+		};
+		4C72661B27552B8B00FDC00E /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		4C72662C2755412F00FDC00E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4C72662F2755417100FDC00E /* ProgressHud */,
+				4C72662D2755415C00FDC00E /* AppManagers.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4C72662F2755417100FDC00E /* ProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				4C7266302755418900FDC00E /* ProgressHudInitializer.swift */,
+			);
+			path = ProgressHud;
+			sourceTree = "<group>";
+		};
+		4C7266342755432F00FDC00E /* Static Members */ = {
+			isa = PBXGroup;
+			children = (
+				4C7266322755425B00FDC00E /* Controller.swift */,
+			);
+			path = "Static Members";
 			sourceTree = "<group>";
 		};
 		4CCE63192755224200319A45 = {
@@ -145,14 +243,14 @@
 			isa = PBXGroup;
 			children = (
 				4CCE63582755232800319A45 /* App */,
+				4C72662C2755412F00FDC00E /* Managers */,
 				4CCE63592755232F00319A45 /* MovieList */,
 				4CCE635A2755233A00319A45 /* Core */,
+				4C7266342755432F00FDC00E /* Static Members */,
 				4CCE635C275524C900319A45 /* Extensions */,
 				4CCE635B275524B200319A45 /* Helpers */,
-				4CCE63292755224200319A45 /* ViewController.swift */,
-				4CCE632B2755224200319A45 /* Main.storyboard */,
+				4C72661B27552B8B00FDC00E /* Interfaces */,
 				4CCE63312755224400319A45 /* Assets.xcassets */,
-				4CCE632E2755224200319A45 /* Processica_Movies.xcdatamodeld */,
 			);
 			path = "Processica Movies";
 			sourceTree = "<group>";
@@ -177,8 +275,8 @@
 		4CCE63582755232800319A45 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4C7265E72755294C00FDC00E /* Dependency Container */,
 				4CCE63252755224200319A45 /* AppDelegate.swift */,
-				4CCE63272755224200319A45 /* SceneDelegate.swift */,
 				4CCE63332755224400319A45 /* LaunchScreen.storyboard */,
 				4CCE63362755224400319A45 /* Info.plist */,
 			);
@@ -188,6 +286,9 @@
 		4CCE63592755232F00319A45 /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
+				4C7265E62755294100FDC00E /* View */,
+				4C7265E52755293800FDC00E /* ViewModel */,
+				4C7265E42755292F00FDC00E /* ViewController */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -203,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				4CCE635D2755279100319A45 /* PPublisher.swift */,
+				4C7266362755438800FDC00E /* PViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -210,6 +312,7 @@
 		4CCE635C275524C900319A45 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4C4C7FF2275605BA0046B833 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -226,6 +329,7 @@
 				4CCE631F2755224200319A45 /* Frameworks */,
 				4CCE63202755224200319A45 /* Resources */,
 				F263F3E3587865A83133EFF7 /* [CP] Embed Pods Frameworks */,
+				4C72661A27552AD000FDC00E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,7 +429,7 @@
 			files = (
 				4CCE63352755224400319A45 /* LaunchScreen.storyboard in Resources */,
 				4CCE63322755224400319A45 /* Assets.xcassets in Resources */,
-				4CCE632D2755224200319A45 /* Main.storyboard in Resources */,
+				4CCE632D2755224200319A45 /* MovieListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,10 +558,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCE635E2755279100319A45 /* PPublisher.swift in Sources */,
-				4CCE63302755224200319A45 /* Processica_Movies.xcdatamodeld in Sources */,
-				4CCE632A2755224200319A45 /* ViewController.swift in Sources */,
+				4C72662027552C2400FDC00E /* AppDependencyContainer.swift in Sources */,
+				4C72662E2755415C00FDC00E /* AppManagers.swift in Sources */,
+				4CCE632A2755224200319A45 /* MovieListViewController.swift in Sources */,
+				4C7266332755425B00FDC00E /* Controller.swift in Sources */,
+				4C7266312755418900FDC00E /* ProgressHudInitializer.swift in Sources */,
+				4C4C7FF3275605BA0046B833 /* UIView+Extensions.swift in Sources */,
+				4C4C7FF1275601030046B833 /* MoviesTableViewCell.swift in Sources */,
+				4C7266372755438800FDC00E /* PViewController.swift in Sources */,
+				4C72662227552C4200FDC00E /* AppDependencyContainerInterface.swift in Sources */,
 				4CCE63262755224200319A45 /* AppDelegate.swift in Sources */,
-				4CCE63282755224200319A45 /* SceneDelegate.swift in Sources */,
+				4C72661627552ABD00FDC00E /* MovieListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,12 +605,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4CCE632B2755224200319A45 /* Main.storyboard */ = {
+		4CCE632B2755224200319A45 /* MovieListViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4CCE632C2755224200319A45 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MovieListViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		4CCE63332755224400319A45 /* LaunchScreen.storyboard */ = {
@@ -642,7 +753,6 @@
 				INFOPLIST_FILE = "Processica Movies/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -672,7 +782,6 @@
 				INFOPLIST_FILE = "Processica Movies/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -829,19 +938,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4CCE632E2755224200319A45 /* Processica_Movies.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4CCE632F2755224200319A45 /* Processica_Movies.xcdatamodel */,
-			);
-			currentVersion = 4CCE632F2755224200319A45 /* Processica_Movies.xcdatamodel */;
-			path = Processica_Movies.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4CCE631A2755224200319A45 /* Project object */;
 }

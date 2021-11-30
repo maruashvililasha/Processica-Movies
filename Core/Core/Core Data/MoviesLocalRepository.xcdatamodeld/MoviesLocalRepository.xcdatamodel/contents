@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="MoviesLocalRepository">
+    <entity name="MovieEntity" representedClassName="MovieEntity" syncable="YES">
+        <attribute name="background" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="poster" optional="YES" attributeType="String"/>
+        <attribute name="voteAverage" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="voteCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="page" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MovieListEntity" inverseName="movies" inverseEntity="MovieListEntity"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="MovieListEntity" representedClassName="MovieListEntity" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="page" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="movies" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="MovieEntity" inverseName="page" inverseEntity="MovieEntity"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="page"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="MovieEntity" positionX="327.0576782226562" positionY="64.62289428710938" width="128" height="163"/>
+        <element name="MovieListEntity" positionX="-63" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>
